@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoHacking</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_registration">Registration</string>
+
+    <string-array name="categories">
+        <item>Network Hacking</item>
+        <item>Password Hacking</item>
+        <item>Email Hacking</item>
+    </string-array>
+
+    <string name="title_activity_network_hacking">NetworkHacking</string>
+    <string name="title_activity_password_hacking">PasswordHacking</string>
+    <string name="title_activity_email_hacking">EmailHacking</string>
+    <string name="title_activity_wireless_hacking">WirelessHacking</string>
+    <string name="title_activity_cool_hacks">CoolHacks</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_hack_dictionary">HackDictionary</string>
+
+</resources>

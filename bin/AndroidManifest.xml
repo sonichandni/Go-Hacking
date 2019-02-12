@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gohacking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gohacking.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gohacking.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.NetworkHacking"
+            android:label="@string/title_activity_network_hacking" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.PasswordHacking"
+            android:label="@string/title_activity_password_hacking" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.EmailHacking"
+            android:label="@string/title_activity_email_hacking" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.WirelessHacking"
+            android:label="@string/title_activity_wireless_hacking" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.CoolHacks"
+            android:label="@string/title_activity_cool_hacks" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.Dashboard"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name="com.example.gohacking.HackDictionary"
+            android:label="@string/title_activity_hack_dictionary" >
+        </activity>
+    </application>
+
+</manifest>
